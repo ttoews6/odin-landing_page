@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #ffff;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
