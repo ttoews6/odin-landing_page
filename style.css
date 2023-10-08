@@ -3,16 +3,62 @@ body {
     padding: 0;
 }
 
+
+/* Header */
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
-    color: #ffff;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+/* row1 */
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    background-color: #1F2937;
+    color: #ffff;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    color: #E5E7EB;
+}
+.placeholder {
+    background-color: grey;
+    color: #E5E7EB;
+    padding: 100px;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #3882F6;
+    color: white;
 }
