@@ -138,7 +138,7 @@ h3 {
     background-color: #3882F6;
     color: #E5E7EB;
     max-width: 1000px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .btn2 {
@@ -150,4 +150,12 @@ h3 {
         color: white;
 }
 
-
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
